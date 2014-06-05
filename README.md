@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-wikiprenneur is built on top of Foundation and Angularjs. Compilation of SCSS files is made by Prepros.
+Wikiprenneur is built on top of Foundation and Angularjs. SCSS and JS files are compiled by Prepros.
 
 ## Get Started
 
