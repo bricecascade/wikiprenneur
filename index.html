@@ -1,13 +1,22 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" ng-app="wiki">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wikiprenneur</title>
     <link rel="stylesheet" href="styles/styles.css" />
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular.min.js"></script>
+	
   </head>
   <body>
-    <script src="scripts/scripts.min.js"></script>
+	  <category-tabs></category-tabs>
+	  
+	  <item-treeview></item-treeview>
+	  
+	  <item-detail ng-show="false"></item-detail>
+	  
+	<script src="scripts/scripts.min.js"></script>
     <script>$(document).foundation();</script>
   </body>
 </html>
