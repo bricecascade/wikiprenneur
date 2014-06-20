@@ -1,0 +1,15 @@
+div.item {
+  border: 1px dotted #333;
+  text-align: center;
+}
+
+div.childbranch .column {
+  border-bottom: 5px solid #000;
+}
+
+.branch {
+  width: 5px;
+  background: #000;
+  height: 30px;
+  display: inline-block;
+}
