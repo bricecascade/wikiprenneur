@@ -7123,19 +7123,25 @@ th.hide-for-touch {
   }
 }
 div.item {
-  border: 1px dotted #333;
   text-align: center;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
   float: left;
 }
 
 div.childbranch .column {
-  border-bottom: 5px solid #000;
+  height: 6px;
+  background: #000;
+  -webkit-border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  -moz-border-radius-topright: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .branch {
-  width: 5px;
+  width: 6px;
   background: #000;
   height: 30px;
   display: inline-block;

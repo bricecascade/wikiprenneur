@@ -1,5 +1,5 @@
 div.item{
-	border:1px dotted #333;
+	//border:1px dotted #333;
 	text-align:center;
     @include grid-column(
       // Control the number of columns
@@ -15,19 +15,26 @@ div.item{
       // Specify how many columns to pull this element past
       //$pull:9,
       // Set to true to remove column padding
-      $collapse:true
+      $collapse:false
       // Specify the float direction
       //$float:right
     );
 }
 
 div.childbranch .column {
-	border-bottom: 5px solid #000;
+	height: 6px;
+	background:#000;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
 
 
 .branch {
-	width: 5px;
+	width: 6px;
 	background: #000;
 	height: 30px;
 	display: inline-block;
