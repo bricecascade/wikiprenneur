@@ -18,7 +18,7 @@ var wikistore = {
 		icon:"ico1",
 		children:[
 		{
-			name:"bloc 1",
+			name:"bloc M1",
 			icon:"ico2",
 			details:{
 			
@@ -26,20 +26,33 @@ var wikistore = {
 			children:[]
 		},
 		{
-			name:"bloc 2",
+			name:"bloc M2",
 			icon:"ico3",
 			details:{
 			},
 			children:[]
 		},
 		{
-			name:"bloc 3",
+			name:"bloc M3",
 			icon:"ico3",
 			details:{
 			},
 			children:[]
 		}
 		]
+	},
+	{
+		name:"Toronto",
+		icon:"ico2",
+		children:[
+		{
+			name:"bloc T1",
+			icon:"ico2",
+			details:{
+			
+			},
+			children:[]
+		}]
 	}
 	]
 };

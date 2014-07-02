@@ -4,7 +4,8 @@
 	app.controller( 'ItemtreeController', function ( $scope ) {
 		
 	  console.log("ItemtreeController launched");
-	  
+	  this.tabs = wikistore.tabs;
+	console.log(this.tabs);
 	});
 	
 	app.directive("itemTreeview", function() {

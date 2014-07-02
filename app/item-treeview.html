@@ -1,4 +1,10 @@
-<div>
+<div ng-controller="ItemtreeController as tree">
+	<ul>
+		<li ng-repeat="tab in tree.tabs">
+			{{tab.name}}
+		</li>
+	</ul>
+	
 	<div class="row">
 		<div class="item  column"  style="width:600px">
 			<div class="iteminfo">
